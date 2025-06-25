@@ -1,10 +1,12 @@
-# first code
+from flask import Flask
 
-for i in range(1,10):
-    print(i)
-print('DONE')
-# second code
-a = 0
-while a < 10:
-    a=a+1
-    print(a)
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return "Hello, világ!"
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
