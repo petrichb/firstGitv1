@@ -1,4 +1,4 @@
-print('Hello GitHub v1')
-print('Hello GitHub v2')
-print('Hello GitHub v3')
-print('Hello GitHub v4')
+# first code
+for i in range(1,10):
+    print(i)
+print('DONE')
